@@ -1,4 +1,8 @@
+@import './utils/fonts';
+@import './utils/vars';
 @import './common';
-@import './example';
-
+@import './slider';
+@import './utils/visualy-hidden';
+@import './utils/is-hidden';
+@import './base-set';
 @import './utils/mixins';
