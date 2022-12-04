@@ -1,5 +1,5 @@
 // swiper init
-      const mySwiper = new Swiper(".swiper", {
+      const mySwiper = new Swiper(".room-slider", {
         speed: 2500,
         effect: 'fade',
         centeredSlides: true,
