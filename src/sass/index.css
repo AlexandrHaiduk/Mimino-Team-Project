@@ -858,6 +858,21 @@ img {
   }
 }
 
+.conteiner {
+  width: 100%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 1024px) {
+  .conteiner {
+    max-width: 1024px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .conteiner {
+    max-width: 1280px;
+  }
+}
+
 footer {
   background-color: #0E0C07;
   padding-top: 40px;
@@ -869,6 +884,21 @@ footer {
   font-style: normal;
 }
 
+.list {
+  list-style: none;
+}
+
+.conteiner-footer {
+  display: flex;
+}
+
+.conteiner-footer-logo {
+  display: flex;
+  margin-left: 59px;
+  text-align: center;
+  justify-content: center;
+}
+
 .footer-logo {
   font-family: "Film P3";
   font-style: normal;
@@ -877,4 +907,41 @@ footer {
   line-height: 1.06;
   letter-spacing: 0.3em;
   color: #F3C653;
+  padding-top: 58px;
+}
+
+.nav-item {
+  gap: 16px;
+}
+
+.nav-item:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #F3C653;
+}
+
+.footer-sots-list {
+  display: flex;
+  gap: 23px;
+}
+
+.footer-link {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-footer {
+  width: 22px;
+  height: 22px;
+  fill: rgba(243, 198, 83, 0.7);
 }/*# sourceMappingURL=index.css.map */
