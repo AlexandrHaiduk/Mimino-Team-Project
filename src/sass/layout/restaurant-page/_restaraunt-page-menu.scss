@@ -17,47 +17,44 @@ td {
 table {
    border-collapse: collapse;
    border-spacing: 0;
+   width: 100%;
 }
 
 .menu {
-   background-color: #fffdee;
+   background-color: $background-light-lemon;
    padding: 32px 0;
 
    @include tablet {
-      padding: 58px 0 40px 0;
+   padding: 58px 0 40px 0;
    }
-
    @include desktop {
-      padding: 58px 0 60px 0;
+   padding: 58px 0 60px 0;
    }
 }
 
 .menu__title {
-   font-style: 'TimesNewRoman';
+   font-family: $times-font;
    font-weight: 700;
    font-size: 32px;
    line-height: 1.15;
-
-   color: #000000;
+   color: $black;
 }
 
 .menu__subtitle {
-   font-style: 'TimesNewRoman';
+   font-family: $times-font;
    font-weight: 700;
    font-size: 20px;
    line-height: 1.15;
    margin: 16px 0;
    text-align: left;
-
-   color: #000000;
+   color: $black;
 
    @include tablet {
-      margin: 20px 0;
+   margin: 20px 0;
    }
-
    @include desktop {
-      font-size: 24px;
-      line-height: 1.16;
+   font-size: 24px;
+   line-height: 1.16;
    }
 }
 
@@ -68,9 +65,8 @@ table {
 .menu__subtitle.first--sub,
 .menu__subtitle.second--sub {
    @include tablet {
-      margin-top: 0;
+   margin-top: 0;
    }
-
    @include desktop {
       margin-top: 0;
    }
@@ -83,33 +79,30 @@ th {
    line-height: 1.21;
    letter-spacing: 0.02em;
    margin: 0 0 4px 0;
-
-   color: #000000;
+   color: $black;
 
    @include desktop {
-      font-size: 16px;
-      line-height: 1.25;
+   font-size: 16px;
+   line-height: 1.25;
    }
 }
 
 .menu__name.long {
    @include desktop {
-      width: 291px;
+   width: 291px;
    }
 }
 
 .menu__text {
-   // min-width: 220px;
    font-weight: 400;
    font-size: 10px;
    line-height: 1.2;
    letter-spacing: 0.02em;
 
-   color: #000000;
+   color: $black;
 
    @include desktop {
-      // max-width: 257px;
-      width: 100%;
+   width: 100%;
    }
 }
 
@@ -130,7 +123,7 @@ th {
    width: 225px;
 
    @include desktop {
-      min-width: 262px;
+   min-width: 262px;
    }
 }
 
@@ -140,7 +133,7 @@ th {
    line-height: 1.2;
 
    letter-spacing: 0.02em;
-   color: #000000;
+   color: $black;
    margin: 0;
    vertical-align: middle;
 }
@@ -150,7 +143,7 @@ th {
    line-height: 1.2;
 
    letter-spacing: 0.02em;
-   color: #000000;
+   color: $black;
    font-weight: 700;
    margin: 0 0 0 32px;
 
@@ -158,44 +151,42 @@ th {
    vertical-align: middle;
 
    @include tablet {
-      margin: 0 0 0 47px;
+   margin: 0 0 0 47px;
    }
 
    @include desktop {
-      margin: 0 0 0 60px;
-      font-size: 16px;
-      line-height: 1.25;
+   margin: 0 0 0 60px;
+   font-size: 16px;
+   line-height: 1.25;
    }
 }
 
-.name__wrap {
+.menu__name-wrap {
    max-width: 221px;
-   // margin-right: 30px;
 
    @media screen and (max-width: 413px) {
-      margin-right: auto;
+   margin-right: auto;
    }
 
    @include tablet {
-      max-width: 226px;
-      // margin-right: 45px;
+   max-width: 226px;
    }
 
    @include desktop {
-      max-width: 258px;
-      margin-right: 45px;
+   max-width: 258px;
+   margin-right: 45px;
    }
 }
 
-.deserts__name,
-.drinks__name {
+.menu__deserts-name,
+.menu__drinks-name {
    font-weight: 500;
    font-size: 16px;
    line-height: 1.25;
    letter-spacing: 0.02em;
    margin-left: 0;
 
-   color: #000000;
+   color: $black;
 }
 
 .menu__item.deserts,
@@ -205,7 +196,7 @@ th {
    margin: 0 0 8px 0;
 
    @include desktop {
-      margin-bottom: 12px;
+   margin-bottom: 12px;
    }
 }
 
@@ -213,29 +204,25 @@ th {
    margin-bottom: 0;
 }
 
-.deserts__list .menu__item.deserts:last-child {
+.menu__deserts-list .menu__item.deserts:last-child {
    margin-bottom: 0;
 }
 
 .menu__item {
    display: flex;
-   // flex-direction: column;
    justify-content: space-between;
    align-items: center;
-
    margin-bottom: 8px;
-
    margin: 0;
-   // min-width: 384px;
    margin: 0 0 8px 0;
 
    @include desktop {
-      margin-bottom: 12px;
+   margin-bottom: 12px;
    }
 }
 
-.deserts__name.last,
-.drinks__name.last {
+.menu__deserts-name.last,
+.menu__drinks-name.last {
    margin: 0;
 }
 
@@ -256,24 +243,23 @@ th {
    min-width: 236px;
    height: 50px;
 
-   background-color: #000000;
-
+   background-color: $black;
    border-radius: 25px;
-   border: 2px solid #fffdee;
+   border: 2px solid $background-light-lemon;
    cursor: pointer;
 
-   color: #f3c653;
-   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-      border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   color: $accent-color;
+   transition: color 250ms $main-transtition-timing-function,
+      border 250ms $main-transtition-timing-function;
 
    &:hover,
    &:focus {
-      background: #ffffff;
-      border: 2px solid #f3c653;
+   background: $white;
+   border: 2px solid $accent-color;
    }
 
    @include tablet {
-      margin-right: 0;
+   margin-right: 0;
    }
 }
 
@@ -281,29 +267,25 @@ th {
    margin-top: 32px;
 
    @include tablet {
-      display: flex;
-      // justify-content: center;
-      justify-content: space-between;
-      margin-top: 40px;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 40px;
    }
 }
 
-@include tablet {
-   .list__wrap.second {
-      width: 430px;
-   }
-}
-
-@include desktop {
-   .list__wrap.second {
-      width: 485px;
-   }
-}
-
-.list__wrap.first {
+.menu__list-wrap.second {
    @include tablet {
-      width: 411px;
-      margin-right: 88px;
+   width: 430px;
+   }
+   @include desktop {
+   width: 485px;
+   }
+}
+
+.menu__list-wrap.first {
+   @include tablet {
+   width: 411px;
+   margin-right: 88px;
    }
 
    @include desktop {
@@ -311,25 +293,3 @@ th {
       margin-right: 140px;
    }
 }
-
-// .menu__list {
-//    border: 1px solid black;
-// }
-
-tr {
-   vertical-align: middle;
-}
-
-.menu__amount,
-.menu__price {
-   text-align: end;
-}
-
-table {
-   width: 100%;
-}
-
-// th,
-// td {
-//    padding: 0;
-// }
