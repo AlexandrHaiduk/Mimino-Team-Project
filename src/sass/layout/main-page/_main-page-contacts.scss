@@ -1,29 +1,20 @@
 .contact {
-  width: 414px;
-  padding-left: 15px;
-  padding-right: 15px;
   padding-top: 36px;
   padding-bottom: 32px;
   background: $background-light-lemon;
 
   @media screen and (min-width: $tablet) {
-    min-width: 1024px;
     height: 521px;
-    padding-left: 47px;
-    padding-right: 47px;
     padding-top: 56px;
     padding-bottom: 32px;
-    display: flex;
+    .container {
+      display: flex;
+    }
   }
 
   @media screen and (min-width: $desktop) {
-    width: 1280px;
-    height: 550px;
-    padding-left: 85px;
-    padding-right: 85px;
     padding-top: 56px;
     padding-bottom: 74px;
-    display: flex;
   }
 }
 
