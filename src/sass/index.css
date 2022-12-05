@@ -914,7 +914,7 @@ footer {
 }
 
 .footer-logo {
-  font-family: "Film P3";
+  font-family: "FilmP3", "sans-serif";
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -948,7 +948,7 @@ footer {
 }
 
 .nav-link {
-  font-family: "Montserrat";
+  font-family: "Montserrat", "sans-serif";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -1010,7 +1010,7 @@ footer {
 }
 @media screen and (min-width: 1024px) {
   .icon-footer-text {
-    font-family: "Montserrat";
+    font-family: "Montserrat", "sans-serif";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
