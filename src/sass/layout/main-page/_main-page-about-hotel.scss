@@ -1,16 +1,20 @@
-.about {
+.exmpl{
+    max-width: 1280px;
+    height: 620px;
+    background-color: black;
+}
+
+.about-reverse {
     background-color: #FFFDEE;
     justify-content: center;
     z-index: 0;
+    
+   
 
     @media screen and (min-width: 1024px) {
         & {
             display: flex;
             flex-direction: column;
-           
-            justify-content: center;
-
-
         }
     }
 
@@ -22,17 +26,26 @@
         font-size: 20px;
         line-height: 1.15;
         color: #B4B4B4;
-        margin-top: 16px;
+        margin-top: 18px;
+        margin-left: 194px;
+        min-width: 190px;
 
 
         @media screen and (min-width: 1024px) {
             & {
                 font-size: 32px;
                 line-height: 1.15;
-                margin-top: 120px;
+               margin-left: 623px;
+               margin-top: 120px;
 
             }
         }
+
+         @media screen and (min-width: 1280px) {
+                     & {
+                         margin-left: 806px;
+                     }
+                 }
 
 
     }
@@ -44,16 +57,25 @@
         line-height: 1.07;
         letter-spacing: 0.3em;
         color: #494848;
-        margin-top: 12px;
+        margin-top: 6px;
+        margin-left: 257px;
 
 
         @media screen and (min-width: 1024px) {
             & {
                 font-size: 64px;
                 margin-top: 4px;
+                margin-left: 726px;
+            
 
             }
         }
+
+                 @media screen and (min-width: 1280px) {
+                     & {
+                         margin-left: 908px;
+                     }
+                 }
 
 
     }
@@ -68,14 +90,18 @@
         line-height: 1.25;
         letter-spacing: 0.02em;
         color: #5F5F5F;
-        max-width: 258px;
-        margin-top: 12px;
+        min-width: 258px;
+        margin-top: 16px;
+        margin-left: 143px;
+        
 
         @media screen and (min-width: 1024px) {
             & {
                 font-size: 16px;
                 max-width: 439px;
+                margin-left: 511px;
                 margin-top: 24px;
+                
 
             }
         }
@@ -83,6 +109,7 @@
         @media screen and (min-width: 1280px) {
             & {
                 max-width: 518px;
+                margin-left: 622px;
             }
         }
 
@@ -96,23 +123,22 @@
             letter-spacing: 0.02em;
             color: #C79002;
             max-width: 163px;
-            margin-left: 20px;
             margin-top: 102px;
+           
 
             @media screen and (min-width: 1024px) {
                 & {
                     font-size: 16px;
                     max-width: 312px;
-                    margin-top: 164px;
-                    margin-left: 48px;
-
+                   margin-left: 220px;
+                   margin-top: 172px;
                 }
             }
 
             @media screen and (min-width: 1280px) {
                 & {
-                    margin-top: 121px;
-                    margin-left: 32px;
+                  margin-left: 294px;
+                  margin-top: 123px;
                 }
             }
         }
@@ -121,48 +147,54 @@
 }
 
 
-.about__image {
-    margin-top: 28px;
-    margin-left: 155px;
+.about-reverse__image {
+   
     box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     border-radius: 2px;
+    margin-top: 28px;
 
     @media screen and (min-width: 1024px) {
         & {
             z-index: 1;
+            margin-left: 14px;
+            margin-top: -359px;
 
-            margin-left: 465px;
-            margin-top: -366px;
+           
         }
     }
 
     @media screen and (min-width: 1280px) {
         & {
-            margin-left: 555px;
-            margin-top: -346px;
+            margin-left: 95px;
+            margin-top: -359px;
         }
     }
 
 
     &--second {
-        margin-top: 32px;
+       
         box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
         border-radius: 2px;
+        margin-top: 32px;
+        margin-left: 21px;
 
         @media screen and (min-width: 1024px) {
             & {
-                margin-top: -16px;
+                margin-left: 48px;
+                margin-top: -24px;
             }
         }
 
         @media screen and (min-width: 1280px) {
             & {
-                margin-top: -65px;
+              margin-top: -46px;
+              margin-left: 45px;
             }
         }
     }
 }
 
-.thumb {
+.thumb-reverse {
     display: flex;
+
 }

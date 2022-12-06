@@ -1445,49 +1445,69 @@ ol {
   display: flex;
 }
 
-.about {
+.exmpl {
+  max-width: 1280px;
+  height: 620px;
+  background-color: black;
+}
+
+.about-reverse {
   background-color: #FFFDEE;
   justify-content: center;
   z-index: 0;
 }
 @media screen and (min-width: 1024px) {
-  .about {
+  .about-reverse {
     display: flex;
     flex-direction: column;
-    justify-content: center;
   }
 }
-.about__header {
+.about-reverse__header {
   font-family: "TimesNewRoman", "sans-serif";
   font-weight: 400;
   font-size: 20px;
   line-height: 1.15;
   color: #B4B4B4;
-  margin-top: 16px;
+  margin-top: 18px;
+  margin-left: 194px;
+  min-width: 190px;
 }
 @media screen and (min-width: 1024px) {
-  .about__header {
+  .about-reverse__header {
     font-size: 32px;
     line-height: 1.15;
+    margin-left: 623px;
     margin-top: 120px;
   }
 }
-.about__logo {
+@media screen and (min-width: 1280px) {
+  .about-reverse__header {
+    margin-left: 806px;
+  }
+}
+.about-reverse__logo {
   font-family: "FilmP3", "sans-serif";
   font-weight: 700;
   font-size: 40px;
   line-height: 1.07;
   letter-spacing: 0.3em;
   color: #494848;
-  margin-top: 12px;
+  margin-top: 6px;
+  margin-left: 257px;
 }
 @media screen and (min-width: 1024px) {
-  .about__logo {
+  .about-reverse__logo {
     font-size: 64px;
     margin-top: 4px;
+    margin-left: 726px;
   }
 }
-.about__title {
+@media screen and (min-width: 1280px) {
+  .about-reverse__logo {
+    margin-left: 908px;
+  }
+}
+.about-reverse__title {
   font-family: "Montserrat", "sans-serif";
   font-style: normal;
   font-weight: 600;
@@ -1495,22 +1515,25 @@ ol {
   line-height: 1.25;
   letter-spacing: 0.02em;
   color: #5F5F5F;
-  max-width: 258px;
-  margin-top: 12px;
+  min-width: 258px;
+  margin-top: 16px;
+  margin-left: 143px;
 }
 @media screen and (min-width: 1024px) {
-  .about__title {
+  .about-reverse__title {
     font-size: 16px;
     max-width: 439px;
+    margin-left: 511px;
     margin-top: 24px;
   }
 }
 @media screen and (min-width: 1280px) {
-  .about__title {
+  .about-reverse__title {
     max-width: 518px;
+    margin-left: 622px;
   }
 }
-.about__title--gold {
+.about-reverse__title--gold {
   font-family: "Montserrat", "sans-serif";
   font-style: normal;
   font-weight: 600;
@@ -1519,60 +1542,61 @@ ol {
   letter-spacing: 0.02em;
   color: #C79002;
   max-width: 163px;
-  margin-left: 20px;
   margin-top: 102px;
 }
 @media screen and (min-width: 1024px) {
-  .about__title--gold {
+  .about-reverse__title--gold {
     font-size: 16px;
     max-width: 312px;
-    margin-top: 164px;
-    margin-left: 48px;
+    margin-left: 220px;
+    margin-top: 172px;
   }
 }
 @media screen and (min-width: 1280px) {
-  .about__title--gold {
-    margin-top: 121px;
-    margin-left: 32px;
+  .about-reverse__title--gold {
+    margin-left: 294px;
+    margin-top: 123px;
   }
 }
 
-.about__image {
+.about-reverse__image {
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
   margin-top: 28px;
-  margin-left: 155px;
-  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
-  border-radius: 2px;
 }
 @media screen and (min-width: 1024px) {
-  .about__image {
+  .about-reverse__image {
     z-index: 1;
-    margin-left: 465px;
-    margin-top: -366px;
+    margin-left: 14px;
+    margin-top: -359px;
   }
 }
 @media screen and (min-width: 1280px) {
-  .about__image {
-    margin-left: 555px;
-    margin-top: -346px;
+  .about-reverse__image {
+    margin-left: 95px;
+    margin-top: -359px;
   }
 }
-.about__image--second {
-  margin-top: 32px;
+.about-reverse__image--second {
   box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
   border-radius: 2px;
+  margin-top: 32px;
+  margin-left: 21px;
 }
 @media screen and (min-width: 1024px) {
-  .about__image--second {
-    margin-top: -16px;
+  .about-reverse__image--second {
+    margin-left: 48px;
+    margin-top: -24px;
   }
 }
 @media screen and (min-width: 1280px) {
-  .about__image--second {
-    margin-top: -65px;
+  .about-reverse__image--second {
+    margin-top: -46px;
+    margin-left: 45px;
   }
 }
 
-.thumb {
+.thumb-reverse {
   display: flex;
 }
 
