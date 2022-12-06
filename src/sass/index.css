@@ -1378,14 +1378,14 @@ button {
 }
 
 .details-restaurant {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../src/images/main-page/main-page-details-restaurant/restourant-414.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/main-page/main-page-details-restaurant/restourant-414.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 414px 735px;
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .details-restaurant {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../src/images/main-page/main-page-details-restaurant/restourant-414@2x.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/main-page/main-page-details-restaurant/restourant-414@2x.webp);
   }
 }
 @media screen and (min-width: 1024px) {
@@ -1394,14 +1394,14 @@ button {
     max-height: 620px;
     padding-top: 48px;
     padding-bottom: 47px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../src/images/main-page/main-page-details-restaurant/restourant-1024.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/main-page/main-page-details-restaurant/restourant-1024.webp);
     background-size: contain;
     background-size: 1024px 620px;
   }
 }
 @media screen and (min-width: 1024px) and (min-device-pixel-ratio: 2), screen and (min-width: 1024px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1024px) and (min-resolution: 192dpi), screen and (min-width: 1024px) and (min-resolution: 2dppx) {
   .details-restaurant {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../src/images/main-page/main-page-details-restaurant/restourant-1024@2x.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/main-page/main-page-details-restaurant/restourant-1024@2x.webp);
   }
 }
 @media screen and (min-width: 1280px) {
@@ -1410,14 +1410,14 @@ button {
     max-height: 620px;
     padding-top: 48px;
     padding-bottom: 47px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../src/images/main-page/main-page-details-restaurant/restourant-1280.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/main-page/main-page-details-restaurant/restourant-1280.webp);
     background-size: contain;
     background-size: 1280px 620px;
   }
 }
 @media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (min-resolution: 192dpi), screen and (min-width: 1280px) and (min-resolution: 2dppx) {
   .details-restaurant {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../src/images/main-page/main-page-details-restaurant/restourant-1280@2x.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/main-page/main-page-details-restaurant/restourant-1280@2x.webp);
   }
 }
 
@@ -1558,6 +1558,7 @@ button {
   background-color: rgba(0, 0, 0, 0.4);
   border: 2px solid #ffffff;
   border-radius: 25px;
+  cursor: pointer;
 }
 
 .reserv-table {
@@ -1579,13 +1580,13 @@ button {
 }
 
 .details-hotel {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../src/images/main-page/main-page-details-hotel/hotel_414.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/main-page/main-page-details-hotel/hotel_414.webp);
   background-repeat: no-repeat;
   background-position: center;
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .details-hotel {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../src/images/main-page/main-page-details-hotel/hotel_414@2x.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/main-page/main-page-details-hotel/hotel_414@2x.webp);
   }
 }
 @media screen and (min-width: 1024px) {
@@ -1594,13 +1595,13 @@ button {
     max-height: 620px;
     padding-top: 48px;
     padding-bottom: 47px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../src/images/main-page/main-page-details-hotel/hotel-1024.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/main-page/main-page-details-hotel/hotel-1024.webp);
     background-size: contain;
   }
 }
 @media screen and (min-width: 1024px) and (min-device-pixel-ratio: 2), screen and (min-width: 1024px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1024px) and (min-resolution: 192dpi), screen and (min-width: 1024px) and (min-resolution: 2dppx) {
   .details-hotel {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../src/images/main-page/main-page-details-hotel/hotel-1024@2x.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/main-page/main-page-details-hotel/hotel-1024@2x.webp);
   }
 }
 @media screen and (min-width: 1280px) {
@@ -1609,13 +1610,13 @@ button {
     max-height: 620px;
     padding-top: 48px;
     padding-bottom: 47px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../src/images/main-page/main-page-details-hotel/hotel-1280.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/main-page/main-page-details-hotel/hotel-1280.webp);
     background-size: contain;
   }
 }
 @media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (min-resolution: 192dpi), screen and (min-width: 1280px) and (min-resolution: 2dppx) {
   .details-hotel {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../src/images/main-page/main-page-details-hotel/hotel-1280@2x.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/main-page/main-page-details-hotel/hotel-1280@2x.webp);
   }
 }
 
