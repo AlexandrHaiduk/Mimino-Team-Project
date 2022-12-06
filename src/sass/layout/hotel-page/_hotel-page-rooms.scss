@@ -17,7 +17,7 @@
    
   }
 
-  .container {
+  .rooms__item.container {
 	@media screen and (max-width: 1023px) {
 		overflow-x: hidden;	
 	}	
@@ -162,7 +162,10 @@ margin-bottom: 62px;
     border-radius: 2px;
 
 	@media screen and (min-width: $tablet) {	
-	    margin-top: -104px;
+	    margin-top: -94px;
+	}
+    @media screen and (min-width: $desktop) {
+		margin-top: -104px;
 	}
 
 	.rooms__item:nth-child(2n) & {
