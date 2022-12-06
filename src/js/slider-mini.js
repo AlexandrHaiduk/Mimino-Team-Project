@@ -1,11 +1,12 @@
-const swiper = new Swiper(".swiper-mini", {
+const swiper = new Swiper('.swiper-mini', {
   // speed: 400,
   spaceBetween: 25,
   loop: true,
   navigation: {
-    nextEl: ".swiper-button-next-mini",
-    prevEl: ".swiper-button-prev-mini",
+    nextEl: '.swiper-button-next-mini',
+    prevEl: '.swiper-button-prev-mini',
   },
+
   breakpoints: {
     320: {
       slidesPerView: 1.3,
