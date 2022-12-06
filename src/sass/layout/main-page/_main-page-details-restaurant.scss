@@ -1,11 +1,3 @@
-$title-color-for-dark-bg: #ffffff;
-$logo-color-for-dark-bg: #ffffff;
-$text-color-for-dark-bg: #bababa;
-$accent-color: #f3c653;
-$outline: 1px solid tomato;
-$dark-bg-section: rgba(0, 0, 0, 0.65);
-$hover-bgcolor-small-btn: #ffffff;
-
 .container {
   max-width: 414px;
   padding-left: 15px;
@@ -144,7 +136,7 @@ button {
 .desc__logo {
   margin-bottom: 12px;
 
-  font-family: 'Film P3';
+  font-family: $film-font;
   font-weight: 700;
   font-size: 40px;
   line-height: calc(43 / 40);
