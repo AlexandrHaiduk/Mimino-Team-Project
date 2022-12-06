@@ -1,0 +1,61 @@
+.swiper-mini {
+  margin-left: auto;
+  position: relative;
+
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+  width: 330px;
+  height: 305px;
+
+  @media screen and (max-width: 1023px){
+    margin-top: 32px;
+    right: -15px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    width: 430px;
+    height: 258px;
+    top: -32px;
+  }
+  @media screen and (min-width: 1280px) {
+    margin-top: -110px;
+    width: 530px;
+    height: 317px;
+  }
+}
+.swiper-wrapper-mini {
+  // width: 330px;
+  height: 245px;
+
+  margin-left: auto;
+  display: flex;
+}
+
+.swiper-slide-mini {
+  width: 245px;
+  height: 245px;
+}
+
+.swiper-button-prev-mini,
+.swiper-button-next-mini {
+  position: absolute;
+  bottom: 0;
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.swiper-button-prev-mini > svg {
+//   fill: currentColor;
+}
+.swiper-button-prev-mini{
+    right: 70px;
+}
+.swiper-button-next-mini{
+    right: 0;
+}
