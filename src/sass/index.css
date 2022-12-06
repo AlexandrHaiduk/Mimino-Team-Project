@@ -903,13 +903,13 @@ footer {
 }
 
 @media screen and (min-width: 1024px) {
-  .footer {
+  footer {
     padding-top: 80px;
     padding-bottom: 80px;
   }
 }
 @media screen and (min-width: 1280px) {
-  .footer {
+  footer {
     padding-top: 80px;
     padding-bottom: 80px;
   }
