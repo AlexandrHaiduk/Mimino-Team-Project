@@ -902,9 +902,20 @@ footer {
   padding-bottom: 40px;
 }
 
+@media screen and (min-width: 1024px) {
+  .footer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .footer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
 .conteiner-footer {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .conteiner-footer-logo {
@@ -922,12 +933,14 @@ footer {
   line-height: 1.06;
   letter-spacing: 0.3em;
   color: #F3C653;
+  margin-right: 85px;
 }
 
 @media screen and (min-width: 1024px) {
   .footer-logo {
     font-size: 64px;
     line-height: 1.08;
+    margin-right: 0;
   }
 }
 .footer-nav {
@@ -939,6 +952,10 @@ footer {
     display: flex;
   }
 }
+.footer-nav-list {
+  margin-bottom: 32px;
+}
+
 .nav-item {
   gap: 16px;
 }
