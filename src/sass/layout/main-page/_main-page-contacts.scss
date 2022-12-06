@@ -3,6 +3,7 @@
   padding-bottom: 32px;
   background: $background-light-lemon;
 
+
   @media screen and (min-width: $tablet) {
     height: 521px;
     padding-top: 56px;
@@ -21,7 +22,7 @@
 // Заголовок Н3 - Mimino
 // !!! ( Заголовок Н2 "Контакти" - прихований)
 
-.contact_title {
+.contact__title {
   margin-bottom: 12px;
 
   font-family: $film-font;
@@ -46,7 +47,7 @@
 }
 
 // Налаштування тексту - "Ресторанно-готельний комплекс"
-.contact_title_name {
+.contact__title-name {
   margin-bottom: 16px;
 
   font-family: $montserrat-font;
@@ -71,7 +72,7 @@
 }
 
 // Налаштування тексту - "Ресторан", "Готель"
-.contact_text {
+.contact__text {
   font-family: $montserrat-font;
   font-style: normal;
   font-weight: 500;
@@ -82,13 +83,17 @@
 }
 
 // Налаштування блоків у секції
-.contact_item {
-  display: flex;
+.contact__item {
+  display: block;
   align-items: center;
   align-content: center;
 
   &:not(:last-child) {
     margin-bottom: 16px;
+  }
+
+  @media screen and (min-width: $phone) {
+    display: flex;
   }
 
   @media screen and (min-width: $tablet) {
@@ -109,7 +114,7 @@
   }
 }
 
-.contact_list {
+.contact__list {
   display: block;
 
   @media screen and (min-width: $tablet) {
@@ -119,10 +124,14 @@
 
 // Окремі налаштування розмірів кожного блоку контактів
 
-.contact-bloc-1 {
+.contact__bloc-1 {
   width: 144px;
   height: 40px;
-  margin-left: 22px;
+  margin-left: 0px;
+
+  @media screen and (min-width: $phone) {
+    margin-left: 22px;
+  }
 
   @media screen and (min-width: $tablet) {
     margin-left: 0px;
@@ -131,10 +140,14 @@
   }
 }
 
-.contact-bloc-2 {
-  width: 260px;
+.contact__bloc-2 {
+  width: 264px;
   height: 40px;
-  margin-left: 54px;
+
+
+  @media screen and (min-width: $phone) {
+    margin-left: 54px;
+  }
 
   @media screen and (min-width: $tablet) {
     margin-left: 0px;
@@ -143,11 +156,15 @@
   }
 }
 
-.contact-bloc-3 {
+.contact__bloc-3 {
   width: 260px;
   height: 76px;
-  margin-left: 124px;
+  margin-left: 0px;
   padding-right: 33px;
+
+  @media screen and (min-width: $phone) {
+    margin-left: 124px;
+  }
 
   @media screen and (min-width: $tablet) {
     width: 285px;
@@ -159,7 +176,7 @@
 
 // Окремі налаштування шрифтів кожного блоку контактів
 
-.contact-bloc-text {
+.contact__bloc-text {
   font-family: $montserrat-font;
   font-style: normal;
   font-weight: 400;
@@ -174,7 +191,7 @@
   align-content: center;
 }
 
-.contact-bloc__location-text {
+.contact__location-text {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.01em;
@@ -202,9 +219,9 @@
 
 // Налаштування зображення мапи
 
-.contact_picture {
+.contact__picture {
   display: block;
-  width: 384px;
+  min-width: 384px;
   height: 220px;
   margin-top: 32px;
 
@@ -218,6 +235,9 @@
   text-align: center;
   background-size: 100%;
 
+
+
+
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -229,7 +249,7 @@
     width: 535px;
     height: 412px;
     margin-top: 13px;
-    margin-left: 99px;
+    margin-left: 98px;
 
     background-image: url(../images/main-page/contacts/map-tab-1x.jpg);
 
