@@ -20,12 +20,6 @@
   }
 }
 
-.rooms__item.container {
-  @media screen and (max-width: 1023px) {
-    overflow-x: hidden;
-  }
-}
-
 .rooms__item {
   padding-top: 32px;
   padding-bottom: 32px;
