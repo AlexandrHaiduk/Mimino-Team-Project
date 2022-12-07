@@ -187,11 +187,6 @@ button {
 .interactiv-wrap {
   display: flex;
   flex-wrap: wrap;
-
-  @media screen and (min-width: 1024px) {
-    // flex-direction: row-reverse;
-    align-items: flex-end;
-  }
 }
 
 .details-restaurant .interactiv-wrap {
@@ -224,6 +219,10 @@ button {
 .btn-wrap {
   margin-left: auto;
   margin-right: auto;
+
+  @include tablet{
+    padding-top: 155px;
+  }
 }
 
 .btn {
