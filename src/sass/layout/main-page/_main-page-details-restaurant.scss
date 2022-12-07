@@ -144,10 +144,14 @@ button {
 
   color: $logo-color-for-dark-bg;
 
+  width: 127px;
+  margin-left: auto;
+
   @media screen and (min-width: 1024px) {
     font-size: 64px;
     line-height: calc(69 / 64);
     letter-spacing: 0.3em;
+    width: 202px;
   }
 }
 .desc__title {
@@ -220,7 +224,7 @@ button {
   margin-left: auto;
   margin-right: auto;
 
-  @include tablet{
+  @include tablet {
     padding-top: 155px;
   }
 }
