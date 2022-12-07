@@ -6,7 +6,7 @@
   list-style: none;
   padding: 0;
   z-index: 1;
-  width: 330px;
+  max-width: 330px;
   height: 305px;
 
   @media screen and (max-width: 1023px) {
@@ -15,15 +15,23 @@
   }
 
   @media screen and (min-width: 1024px) {
-    width: 430px;
+    max-width: 430px;
     height: 258px;
     top: -32px;
   }
   @media screen and (min-width: 1280px) {
     margin-top: -110px;
-    width: 530px;
+    max-width: 530px;
     height: 317px;
   }
+}
+
+.swiper-mini__reverse{
+  @media screen and (max-width:1023px){
+    right: 15px;
+  }
+  margin-left: 0;
+  margin-right: auto;
 }
 
 .swiper-mini__room {
@@ -45,7 +53,6 @@
   right: 15px;
 }
 .swiper-wrapper-mini {
-  // width: 330px;
   height: 245px;
 
   margin-left: auto;
@@ -77,6 +84,27 @@
 }
 .swiper-button-next-mini {
   right: 0;
+}
+
+.swiper-mini.swiper-mini__reverse .swiper-button-prev-mini{
+  right: 285px;
+
+  @include tablet{
+    right: 395px;
+  }
+  @include desktop{
+    right: 495px;
+  }
+}
+
+.swiper-mini.swiper-mini__reverse .swiper-button-next-mini{
+  right: 215px;
+  @include tablet{
+    right: 325px;
+  }
+  @include desktop{
+    right: 425px;
+  }
 }
 .swiper-mini__room.swiper-mini__room--reverse .swiper-button-prev-mini{
   @media screen and (max-width:1023px){
