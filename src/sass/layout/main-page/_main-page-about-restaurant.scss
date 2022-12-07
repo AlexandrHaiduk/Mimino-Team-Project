@@ -116,7 +116,15 @@
 
 }
 
-
+.about-restaurant{
+    
+    @media screen and (max-width: 1023px){
+        padding-bottom: 20px;
+    }
+    // @include desktop{
+    //     padding-bottom: 32px;
+    // }
+}
 .about__image {
     margin-top: 28px;
     margin-left: 155px;
