@@ -49,10 +49,6 @@
    &:focus {
       color: white;
    }
-   // @include tablet {
-   //    font-size: 64px;
-   //    line-height: 69px;
-   // }
    @media screen and (min-width: 1024px) {
    font-size: 64px;
    line-height: 69px;
@@ -155,7 +151,6 @@
    gap: 20px;
 
    @media screen and (min-width: 1024px) {
-   // display: block;
    flex-direction: column;
    margin-left: 137px;
    gap: 12px;
