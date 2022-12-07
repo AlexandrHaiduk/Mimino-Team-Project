@@ -40,40 +40,19 @@
     <include src="./partials/modal/table-modal.html"></include>
     <include src="./partials/modal/room-modal.html"></include>
 
-    <script type="module" src="./js/wow.min.js"></script>
-    <script type="module" src="./js/wow.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script type="module" src="./js/slider-mini.js"></script>
+
+    <!-- animation on scroll script -->
+    <script src="./js/wow.min.js"></script>
     <script>
       new WOW().init();
     </script>
-
-  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-  <script type="module" src="./js/slider-mini.js"></script>
-  <script type="module" src="./js/wow.min.js"></script>
-  <script>
-    new WOW().init();
-  </script>
-</body>
-
+    <!-- animation on scroll script -->
 
     <script type="module" src="./js/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script type="module" src="./js/modal-table.js"></script>
     <script type="module" src="./js/modal-room.js"></script>
-    <script>
-      var wow = new WOW({
-        boxClass: 'wow', // animated element css class (default is wow)
-        animateClass: 'animated', // animation css class (default is animated)
-        offset: 0, // distance to the element when triggering the animation (default is 0)
-        mobile: true, // trigger animations on mobile devices (default is true)
-        live: true, // act on asynchronously loaded content (default is true)
-        callback: function (box) {
-          // the callback is fired every time an animation is started
-          // the argument that is passed in is the DOM node being animated
-        },
-        scrollContainer: null, // optional scroll container selector, otherwise use window,
-        resetAnimation: true, // reset animation on end (default is true)
-      });
-      wow.init();
-    </script>
   </body>
 </html>
